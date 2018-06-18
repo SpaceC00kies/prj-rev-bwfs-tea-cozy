@@ -1,0 +1,139 @@
+
+/* Universal */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px;
+  border: 1px solid white;
+}
+
+/* Main Header Styling */
+
+#header-container {
+  display: flex;
+  height: 76px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  margin-top: 0px;
+  top: 0;
+}
+
+.logo {
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+header nav {
+  padding-top: 25px;
+  padding-left: 1350px;
+}
+
+header span {
+  margin: auto 10px auto 10px;
+}
+
+a {
+  color: seashell;
+}
+
+/* Section One (Mission) Styling */
+
+#mission-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 69px;
+}
+
+#mission-background {
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+
+#mission-content {
+  background-color: black;
+  margin-top: 25%;
+  height: 115px;
+}
+
+#mission-title {
+  padding-top: 10px;
+}
+
+/* Section Two (Tea of the Month) Styling */
+
+#tom-container {
+  width: 1000px;
+  margin: 60px auto;
+}
+
+#tom-content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.individual-container {
+  margin-right: 33px;
+}
+
+.tea-image {
+  height: 200px;
+  width: 300px;
+}
+
+.tea-name {
+  margin-top: 10px;
+}
+
+/* Section Three (Locations) Styling */
+
+#locations-container {
+  width: 1200px;
+  margin: 60px auto;
+}
+
+#locations-background {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 550px;
+  width: 1200px;
+}
+
+#locations-content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.location-box {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+  margin: 15px 40px 0px 0px;
+}
+
+#location-title {
+  padding-top: 55px;
+}
+
+/* Section Four (Contact) Styling */
+
+#contact-container {
+  height: 200px;
+  margin-top: 20px;
+}
+
+/* Footer Styling */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
